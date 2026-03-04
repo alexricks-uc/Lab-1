@@ -49,16 +49,16 @@
         app:layout_constraintTop_toBottomOf="@id/editTextInput" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:scaleType="fitStart"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOutput"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOK"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/new_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
